@@ -740,7 +740,6 @@ const GooglePlacesAutocomplete = React.createClass({
         >
           {this._renderLeftButton()}
           <TextInput
-            { ...userProps }
             ref="textInput"
             returnKeyType={this.props.returnKeyType}
             autoFocus={this.props.autoFocus}
@@ -753,6 +752,7 @@ const GooglePlacesAutocomplete = React.createClass({
             onFocus={onFocus ? () => {this._onFocus(); onFocus()} : this._onFocus}
             clearButtonMode="while-editing"
             underlineColorAndroid={this.props.underlineColorAndroid}
+            { ...userProps }
           />
           {this._renderRightButton()}
         </View>
