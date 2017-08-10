@@ -4,4 +4,4 @@ This fork applies critical fixes on top of FaridSafi's [react-native-google-plac
 
 ## Critical fixes
 
-- [#1](https://github.com/Instawork/react-native-google-places-autocomplete/pull/1): userProps passed to the component should override the existing props on the component
+- [#153](https://github.com/FaridSafi/react-native-google-places-autocomplete/pull/153): userProps passed to the component should override the existing props on the component
