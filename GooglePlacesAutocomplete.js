@@ -495,7 +495,7 @@ const GooglePlacesAutocomplete = React.createClass({
           ...this.props.GoogleReverseGeocodingQuery,
         });
       } else {
-        url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?' + Qs.stringify({
+        url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?' + Qs.stringify({
           location: latitude + ',' + longitude,
           key: this.props.query.key,
           ...this.props.GooglePlacesSearchQuery,
